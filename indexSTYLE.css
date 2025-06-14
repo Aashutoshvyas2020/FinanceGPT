@@ -33,14 +33,12 @@ font-style: normal;
 
 
 .auth {
-    border: 1px red solid;
     display: flex;
     width: 25%;
     justify-content: space-between;
 }
 
 .auth a{
-    border: 1px green solid;
     text-decoration: none;
     color: #e0e0e0;
     padding-left: 12px;
@@ -52,7 +50,6 @@ font-style: normal;
 }
 
 .auth a h2 {
-    border: 1px blue solid;
     margin-right: 15px;
     color: #1e1e1e;
 }
@@ -141,13 +138,11 @@ font-style: normal;
 
 
 .HeroButton{
-    border: 2px red solid;
     padding-top: 15px;
     width: 400px;
 }
 
 .HeroButton a{
-    border: 2px green solid;
     width: 100%;
     text-decoration: none;
     display: flex;
@@ -156,8 +151,6 @@ font-style: normal;
 
 }
 .HeroButton a button{
-    border: 2px blue solid;
-
     color: #1e1e1e;
     border-radius: 15px;
     width: 100%;
@@ -176,7 +169,6 @@ font-style: normal;
 }
 
 .HeroText h2{
-    border: 1px red solid;
     font-size: 2rem;
 }
 
