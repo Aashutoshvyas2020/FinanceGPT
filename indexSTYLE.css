@@ -1,22 +1,21 @@
 
 
+/* -------------------------------------------------------------------------- */
+/*                               Desktop Navbar                               */
+/* -------------------------------------------------------------------------- */
 
-
-/* ----------------------------- Desktop Navbar ----------------------------- */
 
 * {
 font-family: "akzidenz-grotesk-next-extend", sans-serif;
 font-weight: 700;
 font-style: normal;
 }
-
 .MainContainer {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
 }
-
 .DTNavbarContent, info, branding, auth{
     display: flex;
     border-radius: 15px;
@@ -30,7 +29,40 @@ font-style: normal;
     box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
-/* ---------------------- desktop navbar sub categories --------------------- */
+/* ------------------------- Auth style starts here ------------------------- */
+
+
+.auth {
+    border: 1px red solid;
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+}
+
+.auth a{
+    border: 1px green solid;
+    text-decoration: none;
+    color: #e0e0e0;
+    padding-left: 12px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #e0e0e0;
+    border-radius: 15px;
+
+}
+
+.auth a h2 {
+    border: 1px blue solid;
+    margin-right: 15px;
+    color: #1e1e1e;
+}
+
+
+/* -------------------------- style ends here -------------------------- */
+
+
+
+/* ------------------------- info style starts here ------------------------- */
 
 
 .info a {
@@ -47,8 +79,15 @@ font-style: normal;
 }
 
 .info a h2{
-    margin-right: 25px; /* HOW TO SPACE */
+    margin-right: 25px;
 }
+
+
+/* -------------------------- style ends here -------------------------- */
+
+
+/* ----------------------- Branding style starts here ----------------------- */
+
 
 .branding img {
     padding-top: 5px;
@@ -56,26 +95,15 @@ font-style: normal;
     width: 50px;
 }
 
-/* auth */
 
-.auth {
-    display: flex;
-    width: 25%;
-    justify-content: space-between;
-}
-
-.auth a{
-    text-decoration: none;
-    color: #e0e0e0;
-}
-
-.auth a h2 {
-    margin-right: 15px;
-}
+/* ------------------------ style ends here ------------------------ */
 
 
 
-/* Hero Section */
+
+/* -------------------------------------------------------------------------- */
+/*                          Hero section starts here                          */
+/* -------------------------------------------------------------------------- */
 
 
 .HeroContainer{
@@ -93,6 +121,8 @@ font-style: normal;
     margin-top: 30px;
     padding-top: 20px;
 }
+/* ---------------------- Hero image style starts here ---------------------- */
+
 
 .Heroimage{
     padding-bottom: 0px;
@@ -103,6 +133,12 @@ font-style: normal;
     border-radius: 20px;
     height: 80%;
 }
+
+/* ----------------------------- style ends here ---------------------------- */
+
+
+/* ---------------------- Hero button style starts here --------------------- */
+
 
 .HeroButton{
     border: 2px red solid;
@@ -129,6 +165,11 @@ font-style: normal;
     font-size: large;
     font-weight: 900;
 }
+/* ----------------------------- style ends here ---------------------------- */
+
+
+/* ----------------------- Hero Text style starts here ---------------------- */
+
 
 .HeroText {
     margin-top: -210px; 
@@ -143,3 +184,49 @@ font-style: normal;
     font-weight: 40;
     font-style: italic;
 }
+
+
+/* ----------------------------- style ends here ---------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------- Hero Section Ends Here ------------------------- */
+
+
+
