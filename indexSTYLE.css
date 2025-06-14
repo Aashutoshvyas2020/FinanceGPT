@@ -21,7 +21,7 @@ font-style: normal;
     border-radius: 15px;
     justify-content: space-between;
     align-items: center;
-    height: 10vh;
+    height: 20vh;
     flex-wrap: wrap;
     padding-left: 80px;
     padding-right: 80px;
@@ -73,6 +73,7 @@ font-style: normal;
 
     display: flex;
     width: 25%;
+    height: 50%;
     justify-content: space-between;
 }
 
@@ -105,7 +106,6 @@ font-style: normal;
 
 
 .HeroContainer{
-
     border-radius: 15px;
     margin: 0 auto; 
 
