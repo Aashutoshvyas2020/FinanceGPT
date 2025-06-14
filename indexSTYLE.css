@@ -46,7 +46,8 @@ font-style: normal;
     padding-bottom: 0px;
     background-color: #e0e0e0;
     border-radius: 15px;
-
+    min-width: 120px;
+    text-align: center;
 }
 
 .auth a h2 {
