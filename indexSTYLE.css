@@ -9,6 +9,9 @@
 font-family: "akzidenz-grotesk-next-extend", sans-serif;
 font-weight: 700;
 font-style: normal;
+margin: 0;
+
+padding: 0;
 }
 .MainContainer {
     display: flex;
@@ -21,12 +24,33 @@ font-style: normal;
     border-radius: 15px;
     justify-content: space-between;
     align-items: center;
-    height: 20vh;
+    height: 10vh;
     flex-wrap: wrap;
     padding-left: 80px;
     padding-right: 80px;
-    background-color: #1a1a1a;
+    background-color: rgba(26,26,26, 1);
     box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.DTNavbarContent {
+    margin: 20px;
+}
+
+.info a{
+
+    display: flex;
+    align-items: center;
+}
+
+.info a:hover h2{
+    border-bottom: 1px solid;
+
+}
+
+.info a h2{
+    font-size: 15px;
+    align-items: center;
+    border-bottom: 1px rgb(26,26,26);
 }
 
 /* ------------------------- Auth style starts here ------------------------- */
