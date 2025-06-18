@@ -1,0 +1,140 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+.login-container {
+    background-color: rgba(26,26,26, 1);
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.login-title {
+    color: #e0e0e0;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block;
+    color: #e0e0e0;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 12px;
+    background-color: #1e1e1e;
+    border: 1px solid #444;
+    border-radius: 4px;
+    color: #e0e0e0;
+    font-size: 16px;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #e0e0e0;
+}
+
+.form-input::placeholder {
+    color: #888;
+}
+
+.login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #e0e0e0;
+    color: #1e1e1e;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login-button:hover {
+    background-color: #ccc;
+}
+
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    font-size: 14px;
+}
+
+.checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.checkbox-label {
+    color: #e0e0e0;
+}
+
+.forgot-password {
+    color: #e0e0e0;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.divider {
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+    margin: 20px 0;
+    position: relative;
+}
+
+.divider::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #444;
+}
+
+.divider span {
+    background-color: rgba(26,26,26, 1);
+    padding: 0 15px;
+}
+
+.google-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border: 1px solid #444;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.google-button:hover {
+    border-color: #e0e0e0;
+}
