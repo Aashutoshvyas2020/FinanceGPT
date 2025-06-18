@@ -130,30 +130,33 @@ padding: 0;
 
 
 .HeroContainer{
-    border-radius: 15px;
-    margin: 0 auto; 
-
-    width: 80%;
-    height: 80vh;
-    display: flex;
-
-    align-items: center;
-    flex-direction: column;
-    background-color: gray;
-    margin-top: 30px;
+    margin-left: 80px;
+    margin-right:80px;
+    border-radius: 20px;
+    padding-bottom: 100px;
     padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+    height: 90%;
+    text-align: center;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 /* ---------------------- Hero image style starts here ---------------------- */
 
 
 .Heroimage{
-    padding-bottom: 0px;
+    text-align: center;
 }
 
 .Heroimage img{
-    margin-top: 10px;
     border-radius: 20px;
-    height: 80%;
+    height: 70%;
+    width: 70%;
 }
 
 /* ----------------------------- style ends here ---------------------------- */
@@ -172,7 +175,7 @@ padding: 0;
     text-decoration: none;
     display: flex;
     justify-content: center;
-    align-items: center;
+
 
 }
 .HeroButton a button{
@@ -189,9 +192,7 @@ padding: 0;
 /* ----------------------- Hero Text style starts here ---------------------- */
 
 
-.HeroText {
-    margin-top: -210px; 
-}
+
 
 .HeroText h2{
     font-size: 2rem;
